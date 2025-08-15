@@ -76,11 +76,6 @@ form button {
   margin-bottom: 4px;
 }
 
-.right-container {
-    background-color: blue;
-    flex: 1;
-}
-
 .social-media-button-signin {
   background-color: #F3F9FA;
   width: 388px;
@@ -97,4 +92,17 @@ form button {
   width: 28px;
   height: 36px;
   margin-right: 6px;
+}
+
+/* Right Container Css */
+.right-container {
+    flex: 1;
+}
+
+.right-container img {
+  height: 100%;
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-right: 32px;
 }
